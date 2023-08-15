@@ -1,10 +1,12 @@
 'use server'
 
-const getUserAuthenticated = (user) => {
+  const getUserAuthenticated = (email, password) => 
+  {
+     
 
-}
+  }
 
-const getUsers = () =>{
-        
-}
+  const getUsers = () => {
+    return users;
+  };
 export { getUsers, getUserAuthenticated };
