@@ -22,7 +22,15 @@ const users = [
 
   const getUserAuthenticated = (email, password) => 
   {
-     
+        users.map((u) =>{
+            let userAutenticated = ''
+            if(u.email === users.email && u.password === users.password){
+                let userAutenticated = u
+                console.log('Tudo certo')
+            }
+            return userAutenticated;
+          }
+          )
 
   }
 
